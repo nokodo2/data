@@ -1,0 +1,11 @@
+#python form
+from tkinter import *
+import ctypes 
+
+master = Tk()
+master.title('Record Insert')
+master.configure(bg='cyan')
+
+Label(master,bg='cyan',text="name",padx=30,pady=30,font=("garamond",15)).grid (row=2)
+
+mainloop()
